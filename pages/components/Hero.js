@@ -8,6 +8,7 @@ import {
   Icon,
   useColorModeValue,
   createIcon,
+  Link
 } from '@chakra-ui/react';
 
 export default function Hero() {
@@ -57,7 +58,10 @@ export default function Hero() {
                 bg: 'green.500',
               }}>
 
+                <Link href='https://github.com/web3coffee-eth-bogota' isExternal>
                 Learn more about the project               
+              </Link>
+              
               
             </Button>
 
