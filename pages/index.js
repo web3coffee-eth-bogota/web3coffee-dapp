@@ -4,7 +4,6 @@ import { useToast } from "@chakra-ui/react";
 import Hero from "./components/Hero";
 import Feature from "./components/Feature";
 import Profile from "./components/Profile";
-import Explore from "./components/Explore";
 
 
 
@@ -30,8 +29,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Feature />
-      <Profile />
-      <Explore/>
+      <Profile />      
       <Footer />
      
     </>
