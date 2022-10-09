@@ -9,7 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-export default function App(){
+export default function Profile(){
   return (
     <Flex
       w="full"

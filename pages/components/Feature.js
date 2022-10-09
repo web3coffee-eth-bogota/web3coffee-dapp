@@ -3,7 +3,7 @@ import { chakra, Box, SimpleGrid, Flex, Icon } from "@chakra-ui/react";
 
 
 
-  export default function App(){
+  export default function Feature(){
     const Feature = (props) => {
       return (
         <Box>
